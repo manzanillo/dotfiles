@@ -39,6 +39,9 @@ if [[ $REPLY =~ ^[A-Za-z0-9]$ ]]; then
 	echo "Continuing."
 fi
 
+# Update Git settings
+chmod +x ./gitsetup.sh
+./gitsetup.sh
 
 # Update settings
 chmod +x ./settings.sh
