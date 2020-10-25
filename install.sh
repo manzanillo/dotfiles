@@ -35,7 +35,7 @@ brew cask install "font-annie-use-your-telescope"
 brew install svn # svn is needed for a couple of fonts
 brew cask install "font-caveat"
 brew cask install "font-neuton"
-
+brew cask install "font-roboto"
  
 ## clean up
 brew cleanup
